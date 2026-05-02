@@ -7,12 +7,15 @@ requires-python = ">=3.13"
 dependencies = [
     "datasets>=4.8.4",
     "jupyterlab>=4.5.4",
+    "keras>=3.13.2",
     "matplotlib>=3.10.8",
     "numpy>=2.4.2",
     "pandas>=3.0.0",
+    "ruff>=0.15.12",
     "scikit-learn>=1.8.0",
     "scipy>=1.17.0",
     "seaborn[all]>=0.13.2",
+    "tensorflow>=2.21.0",
 ]
 
 [dependency-groups]
